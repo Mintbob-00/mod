@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "sosexymod",
+  "version": "${version}",
+
+  "name": "So Sexy Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "나다씹새끼야"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mintbob.mod.Mod"
+    ]
+  },
+  "mixins": [
+    "mod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
